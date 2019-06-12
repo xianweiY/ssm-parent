@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.atguigu.ssm.mapper.StudentMapper">
+
+    <select id="selectById" parameterType="java.lang.Integer" resultType="com.atguigu.ssm.entities.Student">
+        select * from student where id=#{param}
+    </select>
+
+
+</mapper>

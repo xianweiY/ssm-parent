@@ -14,7 +14,7 @@
     <!-- 扩充了注解驱动，可以将请求参数绑定到控制器参数 -->
     <mvc:annotation-driven/>
     <!-- 静态资源处理  css js imgs -->
-    <mvc:resources location="/WEB-INF/static" mapping="/resources"/>
+<!--    <mvc:resources location="/WEB-INF/static" mapping="/resources"/>-->
     <!--    直接访问的静态资源-->
     <!--    <mvc:view-controller path="/user/login/访问路径.html" view-name="user-login"/>-->
 
